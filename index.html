@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main class="main">
+        <div class="container main__content">
+            <div class="main__left-panel">
+                <select class="main__item_selection" name="" id="">
+                    <option value="cpu">Процессор</option>
+                    <option value="gpu">Видеокарта</option>
+                    <option value="ram">Оперативная память</option>
+                    <option value="mb">Материнская плата</option>
+                </select>
+                <button class="main__add-button">Добавить</button>
+
+                <div class="main__pricetag">
+                    <div class="main__pricetag_title">Полная стоимость:</div>
+                    <div class="main__pricetag_value">0</div>
+                </div>
+            </div>
+            <div class="main__window">
+                <div class="main__test">
+                    <div class="item">
+                        <div class="item__pic_frame">
+                            <img src="images/cpu.jpg" class="item__pic" alt="">
+                        </div>
+                        <h5 class="item__title">Процессор</h5>
+                    </div>
+                    <div class="item">
+                        <div class="item__pic_frame">
+                            <img src="images/gpu.png" class="item__pic" alt="">
+                        </div>
+                        <h5 class="item__title">Видеокарта</h5>
+                    </div>
+                    <div class="item">
+                        <div class="item__pic_frame">
+                            <img src="images/ram.jpg" class="item__pic" alt="">
+                        </div>
+                        <h5 class="item__title">Оперативная память</h5>
+                    </div>
+                    <div class="item">
+                        <div class="item__pic_frame">
+                            <img src="images/mb.jpg" class="item__pic" alt="">
+                        </div>
+                        <h5 class="item__title">Материнская плата</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
